@@ -1,9 +1,10 @@
+####################################################
+# Y.G. Sinai's random walk in random field
+####################################################
+
 using LinearAlgebra
 using Random
-using Pkg
-Pkg.add("Plots")
 using Plots
-###############################
 
 # Generate a Landscape
 function landscape_generator()
