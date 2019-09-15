@@ -1,9 +1,12 @@
+####################################################
+# Gillespie simulations of a simple Poisson Process
+####################################################
+
 using LinearAlgebra
 using Random
 using Pkg
 Pkg.add("Plots")
 using Plots
-###############################
 
 N = 10000;
 
